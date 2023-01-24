@@ -9,7 +9,7 @@ function calculateTip(event){
         return;
     }
 
-    if(numOfPeople == '' | numOfPeople <= 0){
+    if(numOfPeople == '' | numOfPeople <= 1){
         numOfPeople = 1;
         document.getElementById('each').style.display = "none";
     } else {
